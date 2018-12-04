@@ -9,7 +9,12 @@
 Tests are contained in the test/ folder and can be run with:
 ```npm test```
 
-Test data from RSS feeds in stored in test/test_data for mocking.
+Test data from RSS feeds in stored in test/test_data for mocking.o
+
+## Topics Algorithin Info
+
+#### Processing Titles
+
 
 ## What would I change given more time?
 

@@ -20,6 +20,9 @@ describe('RssService', () => {
       service.fetchFeed('foo').then((data) => {
         expect(data.length).to.be.greaterThan(0);
         expect(Object.keys(data[0])).to.deep.equal(['title', 'content']);
+        const title = "As Washington remembered Bush, politics in the Capitol was on hold -- sort of";
+        const item = data.find(el => el.title == title);
+        expect(item.content.indexOf('U.S. Capitol is an arena')).to.be.greaterThan(-1);
         done();
       })
     });
