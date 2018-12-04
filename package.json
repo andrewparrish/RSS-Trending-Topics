@@ -13,7 +13,9 @@
     "rss-parser": "^3.5.4"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "mocha": "^5.2.0",
+    "nock": "^10.0.3",
     "sinon": "^7.1.1"
   }
 }

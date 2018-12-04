@@ -1,22 +1,27 @@
 const { RssService } = require('./../../services');
-const assert = require('assert');
-const sinon = require('sinon');
-const foxData = require('./../test_data/fox.json');
+const expect = require('chai').expect;
+const nock = require('nock');
+const fs = require('fs');
+const path = require('path');
+const foxPath = path.join(__dirname, '../test_data/fox.rss');
 
 describe('RssService', () => {
+  let service = new RssService();
+
   describe('#fetchFeed', () => {
-    let service = new RssService();
-    before(() => {
-      const parser = {
-        parseURL: new Promise((resolve, reject) => {
-          resolve(foxData)
-        });
-      }
-      sinon.stub(service.parser, parser); 
+    beforeEach((done) => {
+      fs.readFile(foxPath, { encoding: 'utf-8' }, (err, foxData) => {
+        nock(/.+/).get(/.+/).reply(200, foxData);
+        done();
+      });
     });
 
     it('extracts out the feed title and content', (done) => {
-
+      service.fetchFeed('foo').then((data) => {
+        expect(data.length).to.be.greaterThan(0);
+        expect(Object.keys(data[0])).to.deep.equal(['title', 'content']);
+        done();
+      })
     });
   });
 });

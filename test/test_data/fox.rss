@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.foxnews.com/~d/styles/itemcontent.css"?><rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+                    <title>FOX News</title>
+    <link>http://www.foxnews.com/</link>
+    <description><![CDATA[FOXNews.com - Breaking news and video. Latest Current News: U.S., World, Entertainment, Health, Business, Technology, Politics, Sports.]]></description>
+        <image>
+    	<url>http://tools.foxnews.com/sites/tools.foxnews.com/files/images/fox-news-logo.png</url>
+    	<title>FOX News</title>
+    	<link>http://www.foxnews.com/</link>
+    </image>
+            <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.foxnews.com/foxnews/latest" /><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="foxnews/latest" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+                  <guid isPermaLink="true">https://www.foxnews.com/politics/as-washington-remembered-bush-politics-in-the-capitol-was-on-hold</guid>
+      <link>https://www.foxnews.com/politics/as-washington-remembered-bush-politics-in-the-capitol-was-on-hold</link>
+                  <media:group>
+        <media:content url="https://static.foxnews.com/foxnews.com/content/uploads/2018/12/AP18337805836116.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com60/60/AP18337805836116.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com60/60/AP18337805836116.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">f927006c-c2d9-507b-a407-1768d961c825</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/news-events/remembering-george-h-w-bush</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/politics</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>As Washington remembered Bush, politics in the Capitol was on hold -- sort of</title>
+      <description>The U.S. Capitol is an arena. A coliseum devoted to fights about politics and policy. But that’s not the case when the flag-draped coffin of a former president is lying in state in the Capitol Rotunda.</description>
+                  <dc:creator>Chad Pergram</dc:creator>
+                         <pubDate>Tue, 04 Dec 2018 03:32:00 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">Fox News</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">Chad Pergram</category>
+                            </item>
+        <item>
+                  <guid isPermaLink="true">https://www.foxnews.com/us/schools-teacher-wont-return-after-bloody-indian-comment</guid>
+      <link>https://www.foxnews.com/us/schools-teacher-wont-return-after-bloody-indian-comment</link>
+                  <category domain="foxnews.com/metadata/dc.identifier">80e706c4-2733-5956-8b45-6da6f0415f65</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/us/education</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/us</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>Schools: Teacher won't return after 'bloody Indian' comment</title>
+      <description>Officials say an English teacher at an Albuquerque high school will no longer work for the school district after she was accused of calling one Native American student a "bloody Indian" and cutting the braid of another.</description>
+                   <pubDate>Tue, 04 Dec 2018 03:15:45 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">Associated Press</category>
+                              <category domain="foxnews.com/dateline">ALBUQUERQUE, N.M.</category>
+                                  </item>
+        <item>
+                  <guid isPermaLink="true">https://www.foxnews.com/world/south-korea-says-no-timeframe-set-for-visit-by-kim-jong-un</guid>
+      <link>https://www.foxnews.com/world/south-korea-says-no-timeframe-set-for-visit-by-kim-jong-un</link>
+                  <category domain="foxnews.com/metadata/dc.identifier">6e7bd357-0d15-500e-bf33-aad10bfb74ea</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/world/world-regions/americas</category>
+            <category domain="foxnews.com/taxonomy">fox-news/us</category>
+            <category domain="foxnews.com/taxonomy">fox-news/world/world-regions/asia</category>
+            <category domain="foxnews.com/taxonomy">fox-news/world/world-regions/pacific</category>
+            <category domain="foxnews.com/taxonomy">fox-news/world</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/world</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>South Korea says no timeframe set for visit by Kim Jong Un</title>
+      <description>South Korea's president said Tuesday no timeframe has been set for a historic visit to Seoul by North Korean leader Kim Jong Un despite both hoping it will take place this year.</description>
+                  <dc:creator>NICK PERRY</dc:creator>
+                         <pubDate>Tue, 04 Dec 2018 03:02:25 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">Associated Press</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">NICK PERRY</category>
+                            </item>
+        <item>
+                  <guid isPermaLink="true">https://www.foxnews.com/us/george-h-w-bush-remembered-in-public-memorial-tribute-in-houston</guid>
+      <link>https://www.foxnews.com/us/george-h-w-bush-remembered-in-public-memorial-tribute-in-houston</link>
+                  <media:group>
+        <media:content url="https://static.foxnews.com/foxnews.com/content/uploads/2018/12/IMG_1345.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com60/60/IMG_1345.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com60/60/IMG_1345.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">2eb893ad-838d-576f-bedc-2e5f1bed2156</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/news-events/remembering-george-h-w-bush</category>
+            <category domain="foxnews.com/taxonomy">fox-news/us/us-regions/southwest/texas</category>
+            <category domain="foxnews.com/taxonomy">fox-news/newsedge/politics</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/us</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>George H.W. Bush remembered in public memorial tribute in Houston</title>
+      <description>Former president George H.W. Bush was known across the country for a lifetime of public service, but people in Houston saw him as much more than the country’s 41st president.</description>
+                  <dc:creator>Madeleine Rivera</dc:creator>
+                         <pubDate>Tue, 04 Dec 2018 02:31:40 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">Fox News</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">Madeleine Rivera</category>
+                            </item>
+        <item>
+                  <guid isPermaLink="true">https://www.foxnews.com/us/residents-continue-assessing-rare-december-tornado-damage</guid>
+      <link>https://www.foxnews.com/us/residents-continue-assessing-rare-december-tornado-damage</link>
+                  <media:group>
+        <media:content url="https://static.foxnews.com/foxnews.com/content/uploads/2018/12/ContentBroker_contentid-38fc7dcfe42b4edf8a31e25dfec9176f.jpeg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com60/60/ContentBroker_contentid-38fc7dcfe42b4edf8a31e25dfec9176f.jpeg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com60/60/ContentBroker_contentid-38fc7dcfe42b4edf8a31e25dfec9176f.jpeg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">10bea7a5-ffec-5ac7-a1c4-1f37428bc9d2</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/us/disasters</category>
+            <category domain="foxnews.com/taxonomy">fox-news/us/disasters/tornado</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/us</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>Residents continue assessing rare December tornado damage</title>
+      <description>Residents in central Illinois on Sunday assessed the damage after rare December tornadoes, including one the day before that was a half-mile-wide, ripped roofs off homes in Taylorville, downed power lines and injured at least 20 people.</description>
+                  <dc:creator>MICHAEL TARM</dc:creator>
+                         <pubDate>Tue, 04 Dec 2018 02:28:02 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">Associated Press</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">MICHAEL TARM</category>
+                            </item>
+        <item>
+                  <guid isPermaLink="true">https://www.foxnews.com/us/prosecutor-no-charges-against-officer-who-shot-homeowner</guid>
+      <link>https://www.foxnews.com/us/prosecutor-no-charges-against-officer-who-shot-homeowner</link>
+                  <media:group>
+        <media:content url="https://static.foxnews.com/foxnews.com/content/uploads/2018/12/ContentBroker_contentid-9c5d08b901624bc3888bb2d5b773273d.png" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com60/60/ContentBroker_contentid-9c5d08b901624bc3888bb2d5b773273d.png" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com60/60/ContentBroker_contentid-9c5d08b901624bc3888bb2d5b773273d.png" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">e50094af-f695-59e2-b744-30a829510a8f</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/us/crime</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/us</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>Prosecutor: No charges against officer who shot homeowner</title>
+      <description>A Colorado police officer will not face charges for fatally shooting a homeowner who had just killed an intruder inside his suburban Denver home, prosecutors said in a letter released Monday.</description>
+                  <dc:creator>KATHLEEN FOODY</dc:creator>
+                         <pubDate>Tue, 04 Dec 2018 02:25:24 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">Associated Press</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">KATHLEEN FOODY</category>
+                            </item>
+        <item>
+                  <guid isPermaLink="true">https://www.foxnews.com/us/sheriff-11-still-missing-after-deadly-california-wildfire</guid>
+      <link>https://www.foxnews.com/us/sheriff-11-still-missing-after-deadly-california-wildfire</link>
+                  <media:group>
+        <media:content url="https://static.foxnews.com/foxnews.com/content/uploads/2018/12/ContentBroker_contentid-750a28032a5f4d27a9d861a106fb6765.png" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com60/60/ContentBroker_contentid-750a28032a5f4d27a9d861a106fb6765.png" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com60/60/ContentBroker_contentid-750a28032a5f4d27a9d861a106fb6765.png" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">fabfff11-5936-5d36-8ad1-ebc2f58c02e3</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/us/disasters</category>
+            <category domain="foxnews.com/taxonomy">fox-news/us/disasters/fires</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/us</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>Sheriff: 11 still missing after deadly California wildfire</title>
+      <description>The sheriff in a Northern California county where dozens were killed by a deadly wildfire says only 11 people remain on a list of missing people.</description>
+                   <pubDate>Tue, 04 Dec 2018 02:18:26 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">Associated Press</category>
+                              <category domain="foxnews.com/dateline">PARADISE, Calif.</category>
+                                  </item>
+        <item>
+                  <guid isPermaLink="true">https://www.foxnews.com/sports/quarterbacks-tagovailoa-murray-and-haskins-named-heisman-trophy-finalists</guid>
+      <link>https://www.foxnews.com/sports/quarterbacks-tagovailoa-murray-and-haskins-named-heisman-trophy-finalists</link>
+                  <media:group>
+        <media:content url="https://static.foxnews.com/foxnews.com/content/uploads/2018/12/Heismanfinalists.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com60/60/Heismanfinalists.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com60/60/Heismanfinalists.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">d62380c1-7e16-5a90-889e-d5bbe82c3cb6</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/sports/ncaa-fb</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/sports</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>Quarterbacks Tagovailoa, Murray and Haskins named Heisman Trophy finalists</title>
+      <description>Alabama's Tua Tagovailoa, Oklahoma's Kyler Murray and Ohio State's Dwayne Haskins are the finalists for the Heisman Trophy, ensuring a quarterback will win the award for the 16th time in the last 19 years.</description>
+                   <pubDate>Tue, 04 Dec 2018 01:44:57 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">Associated Press</category>
+                              <category domain="foxnews.com/dateline">NEW YORK</category>
+                                  </item>
+        <item>
+                  <guid isPermaLink="true">https://www.foxnews.com/us/fed-chairman-powell-says-economic-challenges-remain</guid>
+      <link>https://www.foxnews.com/us/fed-chairman-powell-says-economic-challenges-remain</link>
+                  <media:group>
+        <media:content url="https://static.foxnews.com/foxnews.com/content/uploads/2018/12/ContentBroker_contentid-bd4739f85ff24c4db72a701c15969d6d.png" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com60/60/ContentBroker_contentid-bd4739f85ff24c4db72a701c15969d6d.png" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com60/60/ContentBroker_contentid-bd4739f85ff24c4db72a701c15969d6d.png" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">84d1de5c-28a6-5bbe-8153-c6154f807c05</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/us</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/us</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>Fed Chairman Powell says economic challenges remain</title>
+      <description>Federal Reserve Chairman Jerome Powell says that despite solid economic progress, the country still faces a number of challenges including slow wage-growth for lower-income workers to sluggish productivity and an aging population.</description>
+                  <dc:creator>MARTIN CRUTSINGER</dc:creator>
+                         <pubDate>Tue, 04 Dec 2018 01:41:43 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">Associated Press</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">MARTIN CRUTSINGER</category>
+                            </item>
+        <item>
+                  <guid isPermaLink="true">https://www.foxnews.com/entertainment/harry-potter-alum-rupert-grint-reveals-he-almost-walked-away-from-the-franchise</guid>
+      <link>https://www.foxnews.com/entertainment/harry-potter-alum-rupert-grint-reveals-he-almost-walked-away-from-the-franchise</link>
+                  <media:group>
+        <media:content url="https://static.foxnews.com/foxnews.com/content/uploads/2018/12/Rupert-Grint-Getty.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com60/60/Rupert-Grint-Getty.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com60/60/Rupert-Grint-Getty.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">50198fef-2d27-50d6-b8ef-b3d1d0689cd0</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/entertainment/movies</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/entertainment</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>'Harry Potter' alum Rupert Grint almost walked away from the franchise</title>
+      <description>Rupert Grint was one of the world’s biggest movie stars before he turned 18, but the actor once contemplated walking away from Harry Potter.</description>
+                  <dc:creator>Hannah Paine</dc:creator>
+                         <pubDate>Tue, 04 Dec 2018 01:27:47 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">news.com.au</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">Hannah Paine</category>
+                            </item>
+      </channel>
+</rss>
