@@ -43,8 +43,7 @@ I would capture "Michael Cohen", "Trump's Fixer", and "Confessed", rather than j
 Content is much easier to process due to it being a summary with standard sentence capitalization. As such, I can use a regular expression
 to get all instances of sequential capitlized words that indicate proper nouns. For example, given the content summary: 
 
-```"President Trump and the North Korean leader, Kim Jong-un, at their summit meeting in Singapore in June. A second meeting is likely in January or February,
-said John R. Bolton, the national security adviser."```
+```"President Trump and the North Korean leader, Kim Jong-un, at their summit meeting in Singapore in June. A second meeting is likely in January or February, said John R. Bolton, the national security adviser."```
 
 My algorithim would extract "President Trump", "Kim Jong-un", "Singapore", "John R. Bolton", etc. Additionally the regex can pick up on acronyms such as "G.O.P", and "F.B.I".
 
