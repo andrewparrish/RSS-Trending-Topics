@@ -4,7 +4,8 @@
   "description": "Take home challenge for Anchor.fm. Finding trending topics from news RSS feeds.",
   "main": "app.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test/*"
+    "test": "./node_modules/mocha/bin/mocha test/*",
+    "start": "node app.js"
   },
   "author": "Andrew Parrish",
   "license": "ISC",
