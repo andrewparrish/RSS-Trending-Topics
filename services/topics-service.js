@@ -18,12 +18,7 @@ module.exports = class TopicsService {
                  .filter(word => !commonWords.includes(word.toLowerCase()));
   }
 
-  extractTopics(limit) {
-    this.rssData.forEach((item) => {
-      this.addPhrases(this.processTitle(item.title));
-      this.addPhrases(this.processContent(item.content));
-    });
-    const sorted = this.sortedTopics;
+  mostVerbosePhraseInstance(sorted, limit) {
     let topics = [];
     sorted.forEach((topic) => {
       if (topics.length == limit) { return topics; }
@@ -34,6 +29,15 @@ module.exports = class TopicsService {
     })
 
     return topics;
+  }
+
+  extractTopics(limit) {
+    this.rssData.forEach((item) => {
+      this.addPhrases(this.processTitle(item.title));
+      this.addPhrases(this.processContent(item.content));
+    });
+    const sorted = this.sortedTopics;
+    return this.mostVerbosePhraseInstance(sorted, limit);
   }
 
   longestPhrase(subPhrase, phrases) {

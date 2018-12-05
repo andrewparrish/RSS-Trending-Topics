@@ -15,12 +15,34 @@ describe('TopicsService', () => {
     });
   });
 
+  const topics = [
+    'Bush',
+    'China',
+    'Tuesday Evening Briefing',
+    'George H.W. Bush',
+    'President George H.W. Bush',
+    'H.W.',
+    'China Trade Deal'
+   ];
+
   describe('#longestPhrase', () => {
-    const topics = ['Bush', 'George H.W. Bush', 'President George H.W. Bush', 'H.W.'];
 
     it('returns the longest instance of a phrase', () => {
       expect(service.longestPhrase('H.W.', topics)).to.equal('President George H.W. Bush');
       expect(service.longestPhrase('Bush', topics)).to.equal('President George H.W. Bush');
+    });
+  });
+
+  describe('#mostVerbosePhraseInstance', () => {
+    it('returns the most verbose phrase', () => {
+      expect(service.mostVerbosePhraseInstance(topics, 2)).to.deep.equal([
+        'President George H.W. Bush',
+        'China Trade Deal'
+      ])
+    });
+
+    it('returns as many as it can if there are less items than a limit', () => {
+      expect(service.mostVerbosePhraseInstance(['Topic'], 5)).to.deep.equal(['Topic'])
     });
   });
 
