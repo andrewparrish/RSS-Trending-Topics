@@ -1,5 +1,9 @@
-const { RssService } = require('./../services');
+const { RssService, TopicsService } = require('./../services');
 
 module.exports = (req, res) => {
-  RssService.processFeeds().then(data => res.send(data));
+  RssService.processFeeds().then((data) => {
+    res.send({
+      topics: TopicsService.processRssData(data)
+    });
+  });
 }

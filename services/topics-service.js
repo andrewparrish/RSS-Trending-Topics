@@ -23,8 +23,22 @@ module.exports = class TopicsService {
       this.addPhrases(this.processTitle(item.title));
       this.addPhrases(this.processContent(item.content));
     });
+    const sorted = this.sortedTopics;
+    let topics = [];
+    sorted.forEach((topic) => {
+      if (topics.length == limit) { return topics; }
+      const phrase = this.longestPhrase(topic, sorted);
+      if(!topics.includes(phrase)) {
+        topics.push(phrase);
+      }
+    })
 
-    return this.sortedTopics.slice(0, limit);
+    return topics;
+  }
+
+  longestPhrase(subPhrase, phrases) {
+    const allPhrases = phrases.filter(phrase => phrase.includes(subPhrase));
+    return allPhrases.sort((a, b) => b.length - a.length)[0];
   }
 
   addPhrases(phrases) {

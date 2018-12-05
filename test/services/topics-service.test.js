@@ -10,9 +10,17 @@ describe('TopicsService', () => {
     let data = TopicsService.processRssData(testData);
 
     it('includes popular words', () => {
-      expect(data).to.include('Bush');
-      expect(data).to.include('Trump');
-      expect(data).to.include('China');
+      expect(data).to.include('Former President George H.W. Bush');
+      expect(data).to.include('Tuesday Evening Briefing');
+    });
+  });
+
+  describe('#longestPhrase', () => {
+    const topics = ['Bush', 'George H.W. Bush', 'President George H.W. Bush', 'H.W.'];
+
+    it('returns the longest instance of a phrase', () => {
+      expect(service.longestPhrase('H.W.', topics)).to.equal('President George H.W. Bush');
+      expect(service.longestPhrase('Bush', topics)).to.equal('President George H.W. Bush');
     });
   });
 
