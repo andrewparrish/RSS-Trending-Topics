@@ -1,9 +1,20 @@
 const { TopicsService } = require('./../../services');
 const expect = require('chai').expect;
+const testData = require('./../test_data/mocked_responses.json').data;
 
 describe('TopicsService', () => {
   let service;
   beforeEach(() => service = new TopicsService());
+
+  describe('.processRssData', () => {
+    let data = TopicsService.processRssData(testData);
+
+    it('includes popular words', () => {
+      expect(data).to.include('Bush');
+      expect(data).to.include('Trump');
+      expect(data).to.include('China');
+    });
+  });
 
   describe('#addPhrase', () => {
     it('adds a phrase when one does not exist', () => {
@@ -18,6 +29,14 @@ describe('TopicsService', () => {
       expect(service.commonPhrases['News']).to.equal(2);
     })
   });
+
+  describe('#addPhrases', () => {
+    it('adds all phrases', () => {
+      service.addPhrases(['News', 'Test']);
+      expect(service.commonPhrases['News']).not.to.be.undefined;
+      expect(service.commonPhrases['Test']).not.to.be.undefined;
+    });
+  })
 
   describe('#processTitle', () => {
     let phrases;
@@ -41,6 +60,11 @@ describe('TopicsService', () => {
       phrases = service.processTitle(title);
       expect(phrases).not.to.include('');
     })
+
+    it('returns a blank array for a blank str', () => {
+      phrases = service.processTitle('');
+      expect(phrases).to.deep.eq([]);
+    });
   });
 
   describe('#processContent', () => {
@@ -62,6 +86,21 @@ describe('TopicsService', () => {
 
     it('ignores blank strings', () => {
       expect(properNouns).not.to.include(''); 
+    });
+    
+    it('returns a blank array for a blank str', () => {
+      phrases = service.processContent('');
+      expect(phrases).to.deep.eq([]);
+    });
+  });
+
+  describe('#sortedTopics', () => {
+    beforeEach(() => {
+      return service.addPhrases(['News', 'Test', 'Test']);
+    })
+
+    it('returns an array of topics in sorted order', () => {
+      expect(service.sortedTopics).to.deep.equal(['Test', 'News']);
     });
   });
 });

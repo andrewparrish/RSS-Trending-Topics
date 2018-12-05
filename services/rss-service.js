@@ -12,9 +12,18 @@ module.exports = class RssService {
     this.parser = new Parser();
   }
 
+  static flattenItems(items) {
+    let arr = [];
+    items.forEach((item) => {
+      arr = arr.concat(item);
+    })
+    return arr;
+  }
+
   static processFeeds() {
     const service = new this();
-    return Promise.all(Feeds.map(feedUrl => service.fetchFeed(feedUrl)));
+    return Promise.all(Feeds.map(feedUrl => service.fetchFeed(feedUrl)))
+                  .then(items => this.flattenItems(items));
   }
 
   processFeed(feed) {
